@@ -36,8 +36,8 @@ export class Test extends Component {
         <br />
         <br />
         <label for="country">Country </label>
-        <select name="country" onChange={this.handleChange}>
-          <option value="" disabled selected>
+        <select name="country" onChange={this.handleChange} defaultValue="">
+          <option value="" disabled>
             Select country
           </option>
           <option value="1">India</option>
