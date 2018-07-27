@@ -40,7 +40,7 @@ export class Test extends Component {
           <option value="" disabled selected>
             Select country
           </option>
-          <option value="1"> India </option>
+          <option value="1">India</option>
           <option value="2">UK</option>
           <option value="3">US</option>
         </select>
